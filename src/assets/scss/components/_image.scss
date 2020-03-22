@@ -30,6 +30,7 @@
 		img {
 			border-radius: _size(border-radius);
 			display: block;
+			height: 50%;
 		}
 
 		&.left,
@@ -37,7 +38,7 @@
 			max-width: 40%;
 
 			img {
-				width: 100%;
+				width: 500%;
 			}
 		}
 
