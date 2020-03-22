@@ -5,6 +5,8 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import self from '../images/self.png'
 import self2 from '../images/self2.png'
+import stashapp from '../images/stashapp.jpg'
+import js from '../images/js-brands.svg'
 
 import Stack from './Stack.js'
 
@@ -42,7 +44,7 @@ class Main extends React.Component {
             <img src={self} alt="" />
           </span>
           <p>
-            Hi, I'm Chris 👋🏼, a Full Stack Software Engineer based in Denver, CO.  I have over 10 years of experience in the software industry as a part of Quality Assurance and I am currently seeking my first engineering opportunity. I have been in the dev world since 2018 when I enrolled in Flatiron Schools Software Engineering Bootcamp.  Throughout the bootcamp I completed various projects for my portfolio which you can find <a href="#" onClick={() => {
+            Hi, I'm Chris 👋🏼, a Full Stack Software Engineer based in Denver, CO.  I have over 10 years of experience in the software industry as a part of Quality Assurance and I am currently seeking my first engineering opportunity.  I have been in the dev world since 2018 when I enrolled in the Flatiron School Software Engineering Bootcamp.  Throughout the bootcamp I completed various projects for my portfolio which you can find <a href="#" onClick={() => {
               this.handleProjectsClick();
             }}>here</a>.
           </p>
@@ -64,7 +66,23 @@ class Main extends React.Component {
           Stash App
           </h3>
           <p>
-            Stuff about my stash app with a link to Githup repo, images of tech used and a screenshot of app in use
+            News aggregate app allowing users to curate a custom news page and save articles.
+            <span className="image main">
+            <img src={stashapp} alt="" />
+            <br></br>
+            <ul className="icons">
+            <li>
+              <a
+                href="https://github.com/ChristopherBeltran/stash-app-client"
+                className="icon fa-github"
+              >
+              </a>
+            </li>
+            <li>
+            <img className="icon" src={js} alt=""/>
+            </li>
+            </ul>
+          </span>
           </p>
           <hr />
           <h3 className="major">
