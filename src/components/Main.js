@@ -6,7 +6,6 @@ import pic03 from '../images/pic03.jpg'
 import self from '../images/self.png'
 import self2 from '../images/self2.png'
 import stashapp from '../images/stashapp.jpg'
-import js from '../images/js-brands.svg'
 
 import Stack from './Stack.js'
 
@@ -59,9 +58,10 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
+
+          <p>Below you'll find my portfolio projects that I've completed throughout my time at Flatiron School.  I've elected to maintain these projects since graduation and continue to develop new features.
+          </p>
+          <hr />
           <h3 className="major">
           Stash App
           </h3>
@@ -77,9 +77,11 @@ class Main extends React.Component {
                 className="icon fa-github"
               >
               </a>
+              <p>
+                <b>Stack:</b> Javascript, React, Rails API
+              </p>
             </li>
             <li>
-            <img className="icon" src={js} alt=""/>
             </li>
             </ul>
           </span>
@@ -89,21 +91,69 @@ class Main extends React.Component {
           Pawsitive Outreach
           </h3>
           <p>
-            Stuff about my pawsitive outreach app with a link to Githup repo, images of tech used and a screenshot of app in use
+            Mock pet adoption platform with Omniauth social login and admin backdoor login.
+            <span className="image main">
+            <img src={stashapp} alt="" />
+            <br></br>
+            <ul className="icons">
+            <li>
+              <a
+                href="https://github.com/ChristopherBeltran/pawsitive_outreach"
+                className="icon fa-github"
+              >
+              </a>
+              <p>
+                <b>Stack:</b> Javascript, Rails
+              </p>
+            </li>
+            </ul>
+            </span>
           </p>
           <hr />
           <h3 className="major">
           Concert Scrapbook
           </h3>
           <p>
-            Stuff about my concert scrapbook app with a link to Githup repo, images of tech used and a screenshot of app in use
+            Application for a user to log concerts they've attended, demonstrating complex database relationships.
+            <span className="image main">
+            <img src={stashapp} alt="" />
+            <br></br>
+            <ul className="icons">
+            <li>
+              <a
+                href="https://github.com/ChristopherBeltran/concert-scrapbook"
+                className="icon fa-github"
+              >
+              </a>
+              <p>
+                <b>Stack:</b> Ruby, Sinatra
+              </p>
+            </li>
+            </ul>
+            </span>
           </p>
           <hr />
           <h3 className="major">
           Fantasy Projections
           </h3>
           <p>
-            Stuff about my fantasy projections app with a link to Githup repo, images of tech used and a screenshot of app in use
+          A Command Line Interface program that scrapes the Fantasy Pros website and provides the user with their projected stats.
+            <span className="image main">
+            <img src={stashapp} alt="" />
+            <br></br>
+            <ul className="icons">
+            <li>
+              <a
+                href="https://github.com/ChristopherBeltran/fantasy-projections"
+                className="icon fa-github"
+              >
+              </a>
+              <p>
+                <b>Stack:</b> Ruby
+              </p>
+            </li>
+            </ul>
+            </span>
           </p>
           <hr />
 
