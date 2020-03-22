@@ -11,17 +11,16 @@ const Stack = () => (
             charSet: 'utf-8',
         }]}
         />
-        <div className="container has-text-centered">
+        <div className="has-text-centered">
         <hr />
         <p className="content">
         I have experience with many modern technologies based on my projects needs.  Below is my current stack taken from StackShare.
         </p>
-        <p className="content">
-        </p>
-  <div className="columns">
-    <div className="column is-half is-offset-one-quarter">
-    <a 
-    frameborder="0" 
+        <div className="columns">
+              <div className="column is-half is-offset-one-quarter stackshare">    
+              <a 
+    frameBorder="0"
+    height="1000px"
     data-theme="dark" 
     data-layers="4,1,2,3" 
     data-stack-embed="true" 

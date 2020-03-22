@@ -60,21 +60,35 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
+          <h3 className="major">
+          Stash App
+          </h3>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            Stuff about my stash app with a link to Githup repo, images of tech used and a screenshot of app in use
           </p>
+          <hr />
+          <h3 className="major">
+          Pawsitive Outreach
+          </h3>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Stuff about my pawsitive outreach app with a link to Githup repo, images of tech used and a screenshot of app in use
           </p>
+          <hr />
+          <h3 className="major">
+          Concert Scrapbook
+          </h3>
+          <p>
+            Stuff about my concert scrapbook app with a link to Githup repo, images of tech used and a screenshot of app in use
+          </p>
+          <hr />
+          <h3 className="major">
+          Fantasy Projections
+          </h3>
+          <p>
+            Stuff about my fantasy projections app with a link to Githup repo, images of tech used and a screenshot of app in use
+          </p>
+          <hr />
+
           {close}
         </article>
 
