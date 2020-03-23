@@ -14,7 +14,7 @@ const Header = props => (
         <p>
           Full Stack Engineer
           <br></br>
-          I enjoy creating utility apps developed mostly with Ruby on Rails & Javascript with React
+  
         </p>
       </div>
     </div>

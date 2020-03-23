@@ -6,6 +6,9 @@ import pic03 from '../images/pic03.jpg'
 import self from '../images/self.png'
 import self2 from '../images/self2.png'
 import stashapp from '../images/stashapp.jpg'
+import pawsitive from '../images/pawsitive.jpg'
+import concert from '../images/concert.png'
+import fantasy from '../images/fantasy.jpg'
 
 import Stack from './Stack.js'
 
@@ -39,13 +42,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={self} alt="" />
-          </span>
+
           <p>
-            Hi, I'm Chris 👋🏼, a Full Stack Software Engineer based in Denver, CO.  I have over 10 years of experience in the software industry as a part of Quality Assurance and I am currently seeking my first engineering opportunity.  I have been in the dev world since 2018 when I enrolled in the Flatiron School Software Engineering Bootcamp.  Throughout the bootcamp I completed various projects for my portfolio which you can find <a href="#" onClick={() => {
-              this.handleProjectsClick();
-            }}>here</a>.
+            Hi, I'm Chris 👋🏼, a Full Stack Software Engineer based in Denver, CO.  I have over 10 years of experience in the software industry as a part of Quality Assurance and I am currently seeking my first engineering opportunity.  I have been in the dev world since 2018 when I enrolled in the Flatiron School Software Engineering Bootcamp.
           </p>
           {close}
         </article>
@@ -70,15 +69,21 @@ class Main extends React.Component {
             <span className="image main">
             <img src={stashapp} alt="" />
             <br></br>
-            <ul className="icons">
+            <ul className="icons" style={{textAlign: 'center'}}>
             <li>
               <a
                 href="https://github.com/ChristopherBeltran/stash-app-client"
                 className="icon fa-github"
+                style={{ float: 'left' }}
               >
               </a>
-              <p>
-                <b>Stack:</b> Javascript, React, Rails API
+              <a
+              href="https://stashapp.herokuapp.com/"
+              className="icon fa-external-link"
+              style={{ float: 'left' }, { marginLeft: '10px'}}
+              ></a>
+              <p style={{ display: 'inline' }}>
+                <b style={{ paddingLeft: '10px'}}>Stack:</b> Javascript, React, Rails API, Material-UI
               </p>
             </li>
             <li>
@@ -93,17 +98,17 @@ class Main extends React.Component {
           <p>
             Mock pet adoption platform with Omniauth social login and admin backdoor login.
             <span className="image main">
-            <img src={stashapp} alt="" />
+            <img src={pawsitive} alt="" />
             <br></br>
-            <ul className="icons">
+            <ul className="icons" style={{textAlign: 'center'}}>
             <li>
               <a
                 href="https://github.com/ChristopherBeltran/pawsitive_outreach"
                 className="icon fa-github"
               >
               </a>
-              <p>
-                <b>Stack:</b> Javascript, Rails
+              <p style={{ display: 'inline' }}>
+                <b style={{ paddingLeft: '10px'}}>Stack:</b> Javascript, Rails, Bootstrap
               </p>
             </li>
             </ul>
@@ -116,17 +121,22 @@ class Main extends React.Component {
           <p>
             Application for a user to log concerts they've attended, demonstrating complex database relationships.
             <span className="image main">
-            <img src={stashapp} alt="" />
+            <img src={concert} alt="" />
             <br></br>
-            <ul className="icons">
+            <ul className="icons" style={{textAlign: 'center'}}>
             <li>
               <a
                 href="https://github.com/ChristopherBeltran/concert-scrapbook"
                 className="icon fa-github"
               >
               </a>
-              <p>
-                <b>Stack:</b> Ruby, Sinatra
+              <a
+              href="https://concert-scrapbook.herokuapp.com"
+              className="icon fa-external-link"
+              style={{ float: 'left' }, { marginLeft: '10px'}}
+              ></a>
+              <p style={{ display: 'inline' }}>
+                <b style={{ paddingLeft: '10px'}}>Stack:</b> Ruby, Sinatra, Bootstrap
               </p>
             </li>
             </ul>
@@ -139,17 +149,17 @@ class Main extends React.Component {
           <p>
           A Command Line Interface program that scrapes the Fantasy Pros website and provides the user with their projected stats.
             <span className="image main">
-            <img src={stashapp} alt="" />
+            <img src={fantasy} alt="" />
             <br></br>
-            <ul className="icons">
+            <ul className="icons" style={{textAlign: 'center'}}>
             <li>
               <a
                 href="https://github.com/ChristopherBeltran/fantasy-projections"
                 className="icon fa-github"
               >
               </a>
-              <p>
-                <b>Stack:</b> Ruby
+              <p style={{ display: 'inline' }}>
+                <b style={{ paddingLeft: '10px'}}>Stack:</b> Ruby
               </p>
             </li>
             </ul>

@@ -12,10 +12,10 @@ const Stack = () => (
         }]}
         />
         <div className="has-text-centered">
-        <hr />
         <p className="content">
         I have experience with many modern technologies based on my projects needs.  Below is my current stack taken from StackShare.
         </p>
+        <hr />
         <div className="columns">
               <div className="column is-half is-offset-one-quarter stackshare">    
               <a 
