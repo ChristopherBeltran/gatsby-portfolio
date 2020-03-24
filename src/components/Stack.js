@@ -13,7 +13,7 @@ const Stack = () => (
         />
         <div className="has-text-centered">
         <p className="content">
-        I have experience with many modern technologies based on my projects needs.  Below is my current stack taken from StackShare.
+        I have experience with various languages, frameworks, and libraries. For more details check out my current stack via StackShare.
         </p>
         <hr />
         <div className="columns">

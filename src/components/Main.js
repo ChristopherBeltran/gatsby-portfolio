@@ -39,7 +39,7 @@ class Main extends React.Component {
           <h2 className="major">About</h2>
 
           <p>
-            Hi, I'm Chris <span role="img">👋🏼</span>, a Full Stack Software Engineer based in Denver, CO.  I have over 10 years of experience in the software industry as a part of Quality Assurance and I am currently seeking my first engineering opportunity.  I have been in the dev world since 2018 when I enrolled in the Flatiron School Software Engineering Bootcamp.
+          Hi, I'm Chris Beltran <span role="img">👋🏼</span>, a Full Stack Software Engineer located in Denver, CO.  With over 10 years of experience in the technology industry as a Quality Assurance Manager, I am eager to apply the skills I've learned to a engineering position. After finishing Flatiron School of Software and Engineering's bootcamp in August of 2019, I knew the dev world was for me.           
           </p>
           {close}
         </article>
@@ -53,7 +53,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
 
-          <p>Below you'll find my portfolio projects that I've completed throughout my time at Flatiron School.  I've elected to maintain these projects since graduation and continue to develop new features.
+          <p>While at Flatiron School of Software and Engineer's bootcamp, I worked on various projects. After completing the bootcamp, I fine-tuned these projects with enhanced features and continue to develop more. 
           </p>
           <hr />
           <h3 className="major">
