@@ -1,10 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
-import self from '../images/self.png'
-import self2 from '../images/self2.png'
 import stashapp from '../images/stashapp.jpg'
 import pawsitive from '../images/pawsitive.jpg'
 import concert from '../images/concert.png'
@@ -44,7 +39,7 @@ class Main extends React.Component {
           <h2 className="major">About</h2>
 
           <p>
-            Hi, I'm Chris 👋🏼, a Full Stack Software Engineer based in Denver, CO.  I have over 10 years of experience in the software industry as a part of Quality Assurance and I am currently seeking my first engineering opportunity.  I have been in the dev world since 2018 when I enrolled in the Flatiron School Software Engineering Bootcamp.
+            Hi, I'm Chris <span role="img">👋🏼</span>, a Full Stack Software Engineer based in Denver, CO.  I have over 10 years of experience in the software industry as a part of Quality Assurance and I am currently seeking my first engineering opportunity.  I have been in the dev world since 2018 when I enrolled in the Flatiron School Software Engineering Bootcamp.
           </p>
           {close}
         </article>
@@ -81,6 +76,7 @@ class Main extends React.Component {
               href="https://stashapp.herokuapp.com/"
               className="icon fa-external-link"
               style={{ float: 'left' }, { marginLeft: '10px'}}
+              target="_blank"
               ></a>
               <p style={{ display: 'inline' }}>
                 <b style={{ paddingLeft: '10px'}}>Stack:</b> Javascript, React, Rails API, Material-UI
@@ -134,6 +130,7 @@ class Main extends React.Component {
               href="https://concert-scrapbook.herokuapp.com"
               className="icon fa-external-link"
               style={{ float: 'left' }, { marginLeft: '10px'}}
+              target="_blank"
               ></a>
               <p style={{ display: 'inline' }}>
                 <b style={{ paddingLeft: '10px'}}>Stack:</b> Ruby, Sinatra, Bootstrap
