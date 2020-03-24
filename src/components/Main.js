@@ -75,7 +75,7 @@ class Main extends React.Component {
               <a
               href="https://stashapp.herokuapp.com/"
               className="icon fa-external-link"
-              style={{ float: 'left' }, { marginLeft: '10px'}}
+              style={{ float: 'left' }, { marginLeft: '0px'}}
               target="_blank"
               ></a>
               <p style={{ display: 'inline' }}>

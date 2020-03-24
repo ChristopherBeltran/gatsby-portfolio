@@ -19,7 +19,7 @@ const Header = props => (
       </div>
     </div>
     <nav>
-      <ul>
+      <ul style={{ alignItems: 'center' }}>
         <li>
           <button
             onClick={() => {
