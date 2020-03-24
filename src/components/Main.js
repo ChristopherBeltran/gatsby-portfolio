@@ -53,7 +53,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
 
-          <p>While at Flatiron School of Software and Engineer's bootcamp, I worked on various projects. After completing the bootcamp, I fine-tuned these projects with enhanced features and continue to develop more. 
+          <p>While at Flatiron School of Software and Engineer's bootcamp, I worked on various projects. After completing the bootcamp, I fine-tuned these projects with enhanced features and I'm continuing to develop more. 
           </p>
           <hr />
           <h3 className="major">
