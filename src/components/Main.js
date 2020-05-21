@@ -81,7 +81,7 @@ class Main extends React.Component {
             save articles.{' '}
             <span className="image main">
               <img src={stashapp} alt="" />
-              <br> </br>{' '}
+              <br />{' '}
               <ul
                 className="icons"
                 style={{
@@ -136,7 +136,7 @@ class Main extends React.Component {
             backdoor login.{' '}
             <span className="image main">
               <img src={pawsitive} alt="" />
-              <br> </br>{' '}
+              <br />{' '}
               <ul
                 className="icons"
                 style={{
@@ -174,7 +174,7 @@ class Main extends React.Component {
             demonstrating complex database relationships.{' '}
             <span className="image main">
               <img src="../images/concert.png" alt="" />
-              <br> </br>{' '}
+              <br />{' '}
               <ul
                 className="icons"
                 style={{
@@ -225,7 +225,7 @@ class Main extends React.Component {
             website and provides the user with their projected stats.{' '}
             <span className="image main">
               <img src={fantasy} alt="" />
-              <br> </br>{' '}
+              <br />{' '}
               <ul
                 className="icons"
                 style={{
