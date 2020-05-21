@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import stashapp from '../images/stashapp.jpg'
 import pawsitive from '../images/pawsitive.jpg'
-import concert from '../images/concert.png'
+import concert from '../images/concert.jpg'
 import fantasy from '../images/fantasy.jpg'
 
 import Stack from './Stack.js'
@@ -173,7 +173,7 @@ class Main extends React.Component {
             Application for a user to log concerts they 've attended,
             demonstrating complex database relationships.{' '}
             <span className="image main">
-              <img src="../images/concert.png" alt="" />
+              <img src={concert} alt="" />
               <br />{' '}
               <ul
                 className="icons"
