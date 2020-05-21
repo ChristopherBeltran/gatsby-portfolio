@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Christopher Beltran',
     author: 'Christopher Beltran',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    description: 'Portfolio Site',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
