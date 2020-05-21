@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import stashapp from '../images/stashapp.jpg'
-import pawsitive from '../images/pawsitive.jpg'
-import concert from '../images/concert.jpg'
-import fantasy from '../images/fantasy.jpg'
+import stashapp from '../../public/static/images/stashapp.jpg'
+import pawsitive from '../../public/static/images/pawsitive.jpg'
+import concert from '../../public/static/images/concert.jpg'
+import fantasy from '../../public/static/images/fantasy.jpg'
 
 import Stack from './Stack.js'
 
