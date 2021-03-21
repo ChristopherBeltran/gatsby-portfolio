@@ -4,7 +4,7 @@ import stashapp from '../../public/static/images/stashapp.jpg'
 import pawsitive from '../../public/static/images/pawsitive.jpg'
 import concert from '../../public/static/images/concert.jpg'
 import fantasy from '../../public/static/images/fantasy.jpg'
-
+import jobscraper from '../../public/static/images/jobScraper.jpg'
 import Stack from './Stack.js'
 
 class Main extends React.Component {
@@ -51,9 +51,9 @@ class Main extends React.Component {
             Software Engineer located in Denver, CO. With over 10 years of
             experience in the technology industry as a Quality Assurance
             Manager, I am eager to apply the skills I' ve learned to a
-            engineering position.After finishing Flatiron School of Software and
-            Engineering 's bootcamp in August of 2019, I knew the dev world was
-            for me.{' '}
+            engineering position. After finishing Flatiron Schools Software
+            Engineering bootcamp in August of 2019, I knew the dev world was for
+            me.{' '}
           </p>{' '}
           {close}{' '}
         </article>
@@ -69,10 +69,64 @@ class Main extends React.Component {
           <h2 className="major"> Projects </h2>
           <p>
             {' '}
-            While at Flatiron School of Software and Engineer 's bootcamp, I
-            worked on various projects. After completing the bootcamp, I
-            fine-tuned these projects with enhanced features and I' m continuing
-            to develop more.{' '}
+            While at Flatiron Schools Software Engineering bootcamp, I worked on
+            various projects. After completing the bootcamp, I fine-tuned these
+            projects with enhanced features and I' m continuing to develop more.{' '}
+          </p>{' '}
+          <hr />
+          <h3 className="major">Job Bot </h3>{' '}
+          <p>
+            Job search app that allows the user to trigger and view results of
+            automated job searches on major job search engines{' '}
+            <span className="image main">
+              <img src={jobscraper} alt="" />
+              <br />{' '}
+              <ul
+                className="icons"
+                style={{
+                  textAlign: 'center',
+                }}
+              >
+                <li>
+                  <a
+                    href="https://github.com/ChristopherBeltran/job-scraper"
+                    className="icon fa-github"
+                    style={{
+                      float: 'left',
+                    }}
+                  ></a>{' '}
+                  <a
+                    href="https://job-bot-scraper.herokuapp.com/"
+                    className="icon fa-external-link"
+                    style={
+                      ({
+                        float: 'left',
+                      },
+                      {
+                        marginLeft: '0px',
+                      })
+                    }
+                    target="_blank"
+                  ></a>{' '}
+                  <p
+                    style={{
+                      display: 'inline',
+                    }}
+                  >
+                    <b
+                      style={{
+                        paddingLeft: '10px',
+                      }}
+                    >
+                      {' '}
+                      Stack:{' '}
+                    </b>{' '}
+                    Javascript, React, Node.js, Puppeteer, Cheerio, Ant Design{' '}
+                  </p>{' '}
+                </li>{' '}
+                <li></li>{' '}
+              </ul>{' '}
+            </span>{' '}
           </p>{' '}
           <hr />
           <h3 className="major">Stash App </h3>{' '}
