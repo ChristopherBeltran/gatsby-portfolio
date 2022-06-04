@@ -31795,61 +31795,6 @@ module.exports = JSON.parse("{\"data\":{\"site\":{\"siteMetadata\":{\"title\":\"
 
 /***/ }),
 
-/***/ "./public/static/images/concert.jpg":
-/*!******************************************!*\
-  !*** ./public/static/images/concert.jpg ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/concert-ad4b184a33b22e3578b8103b331a3df1.jpg";
-
-/***/ }),
-
-/***/ "./public/static/images/fantasy.jpg":
-/*!******************************************!*\
-  !*** ./public/static/images/fantasy.jpg ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/fantasy-8375f1d0cdc2776214ba9189b4e517a3.jpg";
-
-/***/ }),
-
-/***/ "./public/static/images/jobScraper.jpg":
-/*!*********************************************!*\
-  !*** ./public/static/images/jobScraper.jpg ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/jobScraper-c39fad7b02875b9f81f79b36383d5f96.jpg";
-
-/***/ }),
-
-/***/ "./public/static/images/pawsitive.jpg":
-/*!********************************************!*\
-  !*** ./public/static/images/pawsitive.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/pawsitive-ffa7f3f62882bc5ea33f560f9ef04fb2.jpg";
-
-/***/ }),
-
-/***/ "./public/static/images/stashapp.jpg":
-/*!*******************************************!*\
-  !*** ./public/static/images/stashapp.jpg ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/stashapp-063c92b8c052aee07f6922fb0a916651.jpg";
-
-/***/ }),
-
 /***/ "./src/assets/scss/main.scss":
 /*!***********************************!*\
   !*** ./src/assets/scss/main.scss ***!
@@ -31966,22 +31911,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _public_static_images_stashapp_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../public/static/images/stashapp.jpg */ "./public/static/images/stashapp.jpg");
-/* harmony import */ var _public_static_images_stashapp_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_static_images_stashapp_jpg__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _public_static_images_pawsitive_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../public/static/images/pawsitive.jpg */ "./public/static/images/pawsitive.jpg");
-/* harmony import */ var _public_static_images_pawsitive_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_public_static_images_pawsitive_jpg__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _public_static_images_concert_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../public/static/images/concert.jpg */ "./public/static/images/concert.jpg");
-/* harmony import */ var _public_static_images_concert_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_public_static_images_concert_jpg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _public_static_images_fantasy_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../public/static/images/fantasy.jpg */ "./public/static/images/fantasy.jpg");
-/* harmony import */ var _public_static_images_fantasy_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_public_static_images_fantasy_jpg__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _public_static_images_jobScraper_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../public/static/images/jobScraper.jpg */ "./public/static/images/jobScraper.jpg");
-/* harmony import */ var _public_static_images_jobScraper_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_public_static_images_jobScraper_jpg__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _Stack_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Stack.js */ "./src/components/Stack.js");
-
-
-
-
-
+/* harmony import */ var _Stack_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Stack.js */ "./src/components/Stack.js");
 
 
 
@@ -32021,7 +31951,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       className: "major"
     }, " About "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Hi, I 'm Chris Beltran ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
       role: "img"
-    }, "\uD83D\uDC4B\uD83C\uDFFC"), ", a Full Stack Software Engineer located in Denver, CO. With over 10 years of experience in the technology industry as a Quality Assurance Manager, I am eager to apply the skills I' ve learned to a engineering position.After finishing Flatiron School of Software and Engineering 's bootcamp in August of 2019, I knew the dev world was for me.", ' '), ' ', close, ' '), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
+    }, "\uD83D\uDC4B\uD83C\uDFFC"), ", a Full Stack Software Engineer located in Denver, CO. I have over 10 years of experience in the tech industry, filling various roles within Quality Assurance. After graduating from Flatiron Schools software engineering bootcamp in 2019, I slowly started my crossover to the development side, taking on a few automation engineering roles, before landing my current role as a fullstack engineer.", ' '), ' ', close, ' '), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
       id: "projects",
       className: `${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`,
       style: {
@@ -32029,12 +31959,12 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
       className: "major"
-    }, " Projects "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, ' ', "While at Flatiron School of Software and Engineer 's bootcamp, I worked on various projects. After completing the bootcamp, I fine-tuned these projects with enhanced features and I' m continuing to develop more.", ' '), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    }, " Projects "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, ' ', "While at Flatiron Schools Software Engineering bootcamp, I worked on various projects. After completing the bootcamp, I fine-tuned these projects with enhanced features and I' m continuing to develop more.", ' '), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
       className: "major"
     }, "Job Bot "), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Job search app that allows the user to trigger and view results of automated job searches on major job search engines", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
       className: "image main"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-      src: _public_static_images_jobScraper_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
+      src: '/static/jobScraper-c39fad7b02875b9f81f79b36383d5f96.jpg',
       alt: ""
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
       className: "icons",
@@ -32069,7 +31999,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     }, "Stash App "), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "News aggregate app allowing users to curate a custom news page and save articles.", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
       className: "image main"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-      src: _public_static_images_stashapp_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
+      src: '/static/stashapp-063c92b8c052aee07f6922fb0a916651.jpg',
       alt: ""
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
       className: "icons",
@@ -32104,7 +32034,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     }, "Pawsitive Outreach "), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Mock pet adoption platform with Omniauth social login and admin backdoor login.", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
       className: "image main"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-      src: _public_static_images_pawsitive_jpg__WEBPACK_IMPORTED_MODULE_3___default.a,
+      src: '/static/pawsitive-ffa7f3f62882bc5ea33f560f9ef04fb2.jpg',
       alt: ""
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
       className: "icons",
@@ -32127,7 +32057,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     }, "Concert Scrapbook "), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Application for a user to log concerts they 've attended, demonstrating complex database relationships.", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
       className: "image main"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-      src: _public_static_images_concert_jpg__WEBPACK_IMPORTED_MODULE_4___default.a,
+      src: '/static/concert-ad4b184a33b22e3578b8103b331a3df1.jpg',
       alt: ""
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
       className: "icons",
@@ -32159,7 +32089,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     }, "Fantasy Projections "), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "A Command Line Interface program that scrapes the Fantasy Pros website and provides the user with their projected stats.", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
       className: "image main"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-      src: _public_static_images_fantasy_jpg__WEBPACK_IMPORTED_MODULE_5___default.a,
+      src: '/static/fantasy-8375f1d0cdc2776214ba9189b4e517a3.jpg',
       alt: ""
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
       className: "icons",
@@ -32185,7 +32115,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
       className: "major"
-    }, " Stack "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Stack_js__WEBPACK_IMPORTED_MODULE_7__["default"], null, " "), " ", close, ' '), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
+    }, " Stack "), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Stack_js__WEBPACK_IMPORTED_MODULE_2__["default"], null, " "), " ", close, ' '), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
       id: "contact",
       className: `${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`,
       style: {

@@ -1,10 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import stashapp from '../../public/static/images/stashapp.jpg'
-import pawsitive from '../../public/static/images/pawsitive.jpg'
-import concert from '../../public/static/images/concert.jpg'
-import fantasy from '../../public/static/images/fantasy.jpg'
-import jobscraper from '../../public/static/images/jobScraper.jpg'
 import Stack from './Stack.js'
 
 class Main extends React.Component {
@@ -48,12 +43,12 @@ class Main extends React.Component {
           <h2 className="major"> About </h2>
           <p>
             Hi, I 'm Chris Beltran <span role="img">👋🏼</span>, a Full Stack
-            Software Engineer located in Denver, CO. With over 10 years of
-            experience in the technology industry as a Quality Assurance
-            Manager, I am eager to apply the skills I' ve learned to a
-            engineering position. After finishing Flatiron Schools Software
-            Engineering bootcamp in August of 2019, I knew the dev world was for
-            me.{' '}
+            Software Engineer located in Denver, CO. I have over 10 years of
+            experience in the tech industry, filling various roles within
+            Quality Assurance. After graduating from Flatiron Schools software
+            engineering bootcamp in 2019, I slowly started my crossover to the
+            development side, taking on a few automation engineering roles,
+            before landing my current role as a fullstack engineer.{' '}
           </p>{' '}
           {close}{' '}
         </article>
@@ -79,7 +74,12 @@ class Main extends React.Component {
             Job search app that allows the user to trigger and view results of
             automated job searches on major job search engines{' '}
             <span className="image main">
-              <img src={jobscraper} alt="" />
+              <img
+                src={
+                  '/static/jobScraper-c39fad7b02875b9f81f79b36383d5f96.jpg'
+                }
+                alt=""
+              />
               <br />{' '}
               <ul
                 className="icons"
@@ -134,7 +134,12 @@ class Main extends React.Component {
             News aggregate app allowing users to curate a custom news page and
             save articles.{' '}
             <span className="image main">
-              <img src={stashapp} alt="" />
+              <img
+                src={
+                  '/static/stashapp-063c92b8c052aee07f6922fb0a916651.jpg'
+                }
+                alt=""
+              />
               <br />{' '}
               <ul
                 className="icons"
@@ -189,7 +194,12 @@ class Main extends React.Component {
             Mock pet adoption platform with Omniauth social login and admin
             backdoor login.{' '}
             <span className="image main">
-              <img src={pawsitive} alt="" />
+              <img
+                src={
+                  '/static/pawsitive-ffa7f3f62882bc5ea33f560f9ef04fb2.jpg'
+                }
+                alt=""
+              />
               <br />{' '}
               <ul
                 className="icons"
@@ -227,7 +237,12 @@ class Main extends React.Component {
             Application for a user to log concerts they 've attended,
             demonstrating complex database relationships.{' '}
             <span className="image main">
-              <img src={concert} alt="" />
+              <img
+                src={
+                  '/static/concert-ad4b184a33b22e3578b8103b331a3df1.jpg'
+                }
+                alt=""
+              />
               <br />{' '}
               <ul
                 className="icons"
@@ -278,7 +293,10 @@ class Main extends React.Component {
             A Command Line Interface program that scrapes the Fantasy Pros
             website and provides the user with their projected stats.{' '}
             <span className="image main">
-              <img src={fantasy} alt="" />
+              <img
+                src={'/static/fantasy-8375f1d0cdc2776214ba9189b4e517a3.jpg'}
+                alt=""
+              />
               <br />{' '}
               <ul
                 className="icons"
