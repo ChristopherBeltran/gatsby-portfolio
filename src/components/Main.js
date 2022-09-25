@@ -95,19 +95,6 @@ class Main extends React.Component {
                       float: 'left',
                     }}
                   ></a>{' '}
-                  <a
-                    href="https://job-bot-scraper.herokuapp.com/"
-                    className="icon fa-external-link"
-                    style={
-                      ({
-                        float: 'left',
-                      },
-                      {
-                        marginLeft: '0px',
-                      })
-                    }
-                    target="_blank"
-                  ></a>{' '}
                   <p
                     style={{
                       display: 'inline',
