@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "author": "Chris Beltran",
   "dependencies": {
-    "gatsby": "^2.32.11",
+    "gatsby": "^5.3.3",
     "gatsby-plugin-manifest": "^2.12.1",
     "gatsby-plugin-react-helmet": "^3.10.0",
-    "gatsby-plugin-sass": "^2.8.0",
+    "gatsby-plugin-sass": "^6.3.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^5.2.1"
